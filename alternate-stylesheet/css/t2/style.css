@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid red;
+}
+
+html {
+    margin: 10px;
+    background-color: purple;
+}
+
+body {
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    background-color: orangered;
+    width: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h2 {
+    float: left;
+    margin: 5px;
+}
+
+#Theme {
+    height: 45px;
+    padding-left: 30px;
+}
+
+#Male {
+    color: gray;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-image: url(../images/skull-male.png);
+    background-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transform-style: "Male Theme";
+}
+
+#Female {
+    color: red;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-image: url(../images/skull-female.png);
+    background-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transform-style: "Female Theme";
+}
+
+#Image {
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url(../images/skull-female.png);
+    background-size: contain;
+}
